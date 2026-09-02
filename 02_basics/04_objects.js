@@ -45,10 +45,36 @@ const users = [
 
 // console.log(users[1].email)
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('IsLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('IsLoggedIn'));
+
+
+const course = {
+    coursename: "js-english",
+    price: "999",
+    courseInstructor: "Hithuman"
+}
+
+// cpurse instructor is too long so we will make antoehr variable and put the value ot course instructor inside that variable
+
+const {courseInstructor: Instructor} = course
+
+console.log(Instructor)
+
+
+// {
+//     "name": "Hithuman",
+//     "ocursename": "js in DHh",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]   
